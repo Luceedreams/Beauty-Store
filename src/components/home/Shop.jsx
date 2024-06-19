@@ -1,5 +1,5 @@
 import React from 'react'
-import './popular.css'
+import './Popular.css'
 import product_02 from "../../assets/product_02.jpeg"
 import product_01 from "../../assets/product_01.jpeg"
 import product_03 from "../../assets/product_03.jpeg"
