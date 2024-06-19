@@ -1,0 +1,149 @@
+.parent_choice {
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.YQ {
+    height: 200px;
+    width: 25%;
+    /* border: 1px solid purple; */
+}
+
+.YQ span {
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.Yqdash {
+    width: 60px;
+    border-top: 1px solid #d4a6b6;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.divide {
+    width: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.Delivery {
+    height: 200px;
+    width: 28%;
+    /* border: 1px solid blue; */
+}
+
+.Delivery p {
+    margin-left: 37px;
+    font-size: 17px;
+    font-weight: 100;
+    color: #838181;
+    margin-top: 10px;
+}
+
+.gone {
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.gone h1 {
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+.for_truck {
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid red; */
+    background-color: #d4a6b6;
+    border-radius: 100%;
+
+}
+
+.truck {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+@media screen and (max-width:1031px) {
+    .parent_choice {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .YQ {
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .Yqdash {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .Delivery p {
+        font-size: 16px;
+    }
+
+    .gone h1 {
+        font-size: 18px;
+    }
+
+    .divide {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .divide {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parent_choice {
+        height: 550px;
+    }
+
+    .Delivery {
+        height: 150px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Delivery p {
+        margin-left: 0px;
+        font-size: 15px;
+    }
+
+    .gone h1 {
+        font-size: 18px;
+    }
+
+    .for_truck {
+        margin-bottom: 10px;
+
+    }
+
+    .truck {
+        margin-left: 0px;
+    }
+}
