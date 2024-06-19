@@ -64,7 +64,7 @@ const About = () => {
             <div className='sub_intro'>
               <h5>ABOUT ME</h5>
               <h2>Hi, I'm Lucee!</h2>
-              <h3>I'm a 22 years old woman entrepreneur, living in Miami, Florida</h3>
+              <h3>I'm a 22 year old woman entrepreneur, living in Miami, Florida</h3>
               <div className='intro_border'>
 
               </div>
